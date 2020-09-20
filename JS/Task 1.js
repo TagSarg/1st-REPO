@@ -8,10 +8,11 @@ prompt ("Level 2 - input");
                  may be a number, "text" or boolean....., 
    3.  const -
 */
- let MayVar1 = 'Level 3    let : declaration of ?local? variables, exists only after that row';
+ let MayVar1 = 'Level 3    let : declaration of ?local? variables, exists only after that row'; 
+ // let-ով ֆունկցիայի ներսում հայտարարելիս, փոփ-ը գոյություն ունի միայն այդ ֆունկ-ի ներսում, իսկ var-ով հայտարարելիս նորից գնում է վերև
 console.log (MayVar1);
 console.log (MayVar2 = 3); 
-var MayVar2 = 'declaration of  ?global? Variables';
+var MayVar2 = 'declaration of  ?global? Variables'; 
 console.log (MayVar2);
 
 /* null - ???;   can՛t be defined,  undefined 
